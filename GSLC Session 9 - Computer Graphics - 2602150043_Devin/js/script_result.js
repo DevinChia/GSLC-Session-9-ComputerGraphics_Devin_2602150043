@@ -84,7 +84,7 @@ function applyBlur(imageData) {
       newData[idx] = r / kernel.length;
       newData[idx + 1] = g / kernel.length;
       newData[idx + 2] = b / kernel.length;
-      newData[idx + 3] = data[idx + 3]; // Alpha
+      newData[idx + 3] = data[idx + 3];
     }
   }
 
